@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:17.04
 FROM python:3
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash
 #RUN DEBIAN_FRONTEND=noninteractive apt-get install -y software-properties-common python-software-properties
